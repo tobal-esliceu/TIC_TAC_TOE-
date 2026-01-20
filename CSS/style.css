@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 800px;
     background-color: #ffffff;
 }
 
@@ -16,5 +16,22 @@ body {
 .casella {
     background-color: white;
     border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem; /* Tamaño de la X y O */
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+/* Colores para los jugadores */
+.casella.x { color: #000000; }
+.casella.o { color: #ff0404; }
+
+#missatge {
+    font-weight: bold;
+    color: green;
+    height: 30px;
+    margin-top: 10px;
 }
 
